@@ -65,9 +65,9 @@ Two of the remaining important features were EP and Opp TD Prob. WP was not far 
 
 ## Limitations
 
-The algorithm does have its limitations. As the saying goes, the only constant in the NFL is change. Organizations are constantly turning over rosters and coaching staffs. Because of this, it's tough to consistently rank each offensive and defensive unit. New coaching staffs also mean new schemes and philosphys. With the NFL looking everywhere for new ideas, including the college ranks, one team's new ideas could throw off the accuracy of a model.
+The algorithm does have its limitations. As the saying goes, the only constant in the NFL is change. Organizations are constantly turning over rosters and coaching staffs. Because of this, it's tough to consistently rank each offensive and defensive unit. New coaching staffs also mean new schemes and philosphies. With the NFL looking everywhere for new ideas, including the college ranks, one team's new ideas could throw off the accuracy of a model.
 
-Also, the NFL provided limited data on each play. Each play is more complex than a pass or a rush. There are formations, pre-snap motion, blcoking schemes, blitzes and countless other concepts that need to be charted to make this algorithm more accurate. Individual teams chart this data in their own way. That information would be very beneficial to this project.
+Also, the NFL provided limited data on each play. Each play is more complex than a pass or a rush. There are formations, pre-snap motion, blocking schemes, blitzes and countless other concepts that need to be charted to make this algorithm more accurate. Individual teams chart this data in their own way. That information would be very beneficial to this project.
 
 ## Future Work
 
