@@ -8,7 +8,7 @@ Business Problem: To create a machine learning algorithm that can predict the li
 
 Steps:
 1. Explore the data to get familiar with it
-2. Clean the data and drop any unnessary columns
+2. Clean the data and drop any unnecessary columns
 3. Feature engineer offensive and defensive rankings for the teams involved in each conversion attempt
 4. Transform the categorical data so it can be used in the models
 5. Run the models
