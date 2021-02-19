@@ -4,7 +4,7 @@
 
 ## Problem
 
-Mission:  Educate potential buyers on what housing aspects and geographical locations increase the prices of homes.
+Business Problem: To create a machine learning algorithm that can predict the likelihood of a success or failure on a 4th down conversation attempt.
 
 Steps:
 1. Explore the data to get familiar with it
