@@ -28,7 +28,7 @@ In this classification issue, precision represents the conversion attempts that 
 
 ### Model 1 - Decision Tree
 
-![graph3](./images/4th_down_tree.png)
+![graph3](./images/4th_down_tree)
 
 The Decision Tree delivered fair results, but, after hyperparameter tuning, the metrics were worse than the baseline. The accuracy of the model was 77%. Precision and recall were also below the 80% mark.
 
