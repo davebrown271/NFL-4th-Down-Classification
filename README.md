@@ -79,7 +79,7 @@ Also, the NFL provided limited data on each play. Each play is more complex than
 
 ## For More Information
 
-Please review my full analysis in my [notebook](/fourth_down_efficiency.ipynb) and my [presentation](/King_County_Presentation.pdf).
+Please review my full analysis in my [notebook](/fourth_down_efficiency.ipynb) and my [presentation](/nfl_4th_presentation.pdf).
 
 For any additional questions, please contact Dave Brown: davebrown271@gmail.com.
 
