@@ -26,25 +26,13 @@ After dropping columns that were not relevant to the issue and taking care of nu
 
 In this classification issue, precision represents the conversion attempts that appear to have succeeded, but actually failed. Recall represents the attempts that appear to have failed, but acutally succeeded. Because a turnover is worse than a punt or field goal, precision is the more important measurement.
 
-### Model 1 - Decision Tree
-
-![graph3](./images/4th_down_tree)
-
-The Decision Tree delivered fair results, but, after hyperparameter tuning, the metrics were worse than the baseline. The accuracy of the model was 77%. Precision and recall were also below the 80% mark.
-
-### Model 2 - KNN
-
-![graph4](./images/knn_lineplot.png)
-
-The KNN Model performed worse than the Decision Tree. The initial model had an accuracy of under 73%. After some hyperprarmeter tuning, the accuracy score dropped. The precision was 78% and the recall metric was a very poor 61%.
-
-### Model 3 - Random Forest
+### Random Forest
 
 The Random Forest turned out to be the best Classifier for this dataset. The initial model's accuracy, precision and recall performed well. Each metric had over 82% efficency.
 
-After using GridSearchCV to hyperparameter tune, it was determined that the basline mean crossvalidation score was set at 80.90%. The hyperparameter tuning helped the model improve to 86.1% accuracy. The testing and training accuracy for the model wss similar as well. The testing accuracy was 83.48%, while the training accuracy was 84.31%. Overall, this model was cleary the best fit
+Each feature had an importance higher than zero so there was no need to drop any. Next, I used GridSearchCV to improve the model. This resulted in the accuracy improving from 83.05% to 83.26%, the precision increasing from 83.57% to 88.16%.
 
-![graph5](./images/features.png)
+![graph3](./images/features.png)
 
 As you can see above, these are the most important features to this model. They influenced my recommendations, which you will see below.
 
@@ -52,9 +40,13 @@ As you can see above, these are the most important features to this model. They 
 
 1. If it's during a sustained drive, go for it.
 
+![graph4](./images/successful_conversions.png)
+
 When looking at the most important features, a few things stick out, net yards, play count, yardline, and drive inside 20. All of these point to the offense being on the field for a long period of time and a tired defense. Since these situations proved to be advantageous to offenses in the past, they should continue to be that way in the future
 
 2. Throw the ball
+
+![graph5]('./images/epa_per_yac.png')
 
 A very important feature in the graph is YAC, which stands for yards after the catch. This stat can only be positive if the offense passes the ball when they are going for it on 4th down. So offenses shouldn't hand the ball off to their running backs on 4th down. They should air it out!
 
