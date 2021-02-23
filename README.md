@@ -46,7 +46,7 @@ When looking at the most important features, a few things stick out, net yards, 
 
 2. Throw the ball
 
-![graph5]('./images/epa_per_yac.png')
+![graph5](./images/epa_per_yac.png)
 
 A very important feature in the graph is YAC, which stands for yards after the catch. This stat can only be positive if the offense passes the ball when they are going for it on 4th down. So offenses shouldn't hand the ball off to their running backs on 4th down. They should air it out!
 
